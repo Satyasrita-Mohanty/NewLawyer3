@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+::selection {
+  background:#c1928b;
+    color:#fff;/* WebKit/Blink Browsers */
+}
+::-moz-selection {
+   background:#c1928b;
+    color:#fff;/* Gecko Browsers */
+}
+*{
+    box-sizing: border-box;
+}
+::selection {
+  background:#c1928b;
+    color:#fff;/* WebKit/Blink Browsers */
+}
+::-moz-selection {
+   background:#c1928b;
+    color:#fff;/* Gecko Browsers */
+}
+nav{
+    padding: 0;
+    margin: 0;
+}
+.jumbotron-header {
+    background-color:  #1a1a1a;
+    padding: 6px 0px;
+}
+.navLink{
+   font-family: 'Lora', serif;
+   color: #ffffff;
+   font-size: 14px;
+   text-decoration: none;
+   text-transform: uppercase;
+}
+.navLink:hover{
+   text-decoration: none; 
+   color:  #897a9f;
+}
+.active1{
+   color: #897a9f;  
+}
+.navLink1{
+   color: #000000 !important;
+   font-family: 'Lora', serif;
+    padding: 12px 10px;
+    font-size: 12px;
+    text-transform: capitalize;
+    margin: 6px 0px;
+}
+.navLink1:hover{
+    color: 
+}
+.logo{
+     color: #897a9f !important;
+     font-weight: bold;
+     font-family: 'Lora', serif;
+     font-size: 26px;
+     letter-spacing: 2px;
+    font-family: 'Lora', serif;
+}
+.jumbotron-footer{
+   background: #060506 !important;
+	border-radius: 0px !important;
+	background-repeat: no-repeat;
+    background-size: cover;
+	text-align:left;
+	padding: 100px 0px 40px 0px !important;
+    margin: 0px;
+}
+.footer-heading{
+	color: #fff;
+	font-size:16px;
+	text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Lora', serif;
+ 
+}
+.footer-links{
+	color: #eee;
+	font-size:14px;
+	text-decoration: none;
+    font-family: 'Lora', serif;
+    padding: 8px 0px 8px 0px;
+    line-height: 32px !important;
+}
+.footer-links:hover{
+	color: #fff !important;
+    text-decoration: none;
+}
+.footer-social-icon{
+    color: #fff;
+    font-size: 15px;
+}
+
+ /* Make the image fully responsive */
+  .carousel-inner img {
+    width: 100%;
+    height: 580px;
+  }
+
+.carousel-indicators li{
+   width: 11px;
+   height: 11px;
+   border-radius: 50%;
+}
+.carousel-caption{
+    bottom: 100px;
+    left: 49%;
+    text-align: left;
+    border-left: 2px solid  #897a9f;
+}
+.bigHeading{
+    font-family: 'Lora', serif;
+    color: #ffffff;
+    font-size: 42px;
+    font-weight: bold;
+    letter-spacing: 1px;  
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.smallHeading{
+    font-family: 'Lora', serif;
+    color: #f2f2f2;
+    font-size: 17px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    text-align: left;
+}
+.appButton{
+     font-family: 'Lora', serif;
+     text-transform: capitalize;
+     color: #ffffff;
+     text-decoration: none;
+     padding: 13px 14px;
+     border: 2px solid  #897a9f;
+     margin-top: 30px;
+     border-radius: 30px;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+.appButton:hover{
+   text-decoration: none;
+   color: #000000;
+    background-color:  #897a9f;
+    border: none;
+    font-weight: bold;
+}
+.marginLeft{
+    margin-left: 30px;
+}
+.blackBox{
+    padding: 40px 20px 30px 20px;
+     text-align: center;
+    background-color: #1a1a1a;
+    cursor: pointer;
+}
+.blackBox:hover{
+    background-color:  #897a9f !important;
+    opacity: 0.7;
+}
+
+.serviceHeadSmall{
+    font-family: 'Lora', serif;
+    text-transform: capitalize;
+     color: #ffffff;
+    letter-spacing: 1px;
+    font-size: 19px;
+    text-transform: uppercase;
+}
+.clrIcon{
+    color:  #ffffff;
+    font-size: 48px;
+    font-weight: bold;
+}
+.serviceHead{
+    font-family: 'Lora', serif;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 32px;
+    text-transform: capitalize;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.greyBack{
+    background-color:  #f2f2f2;
+    padding: 100px 0px;
+}
+.smallHeadingGrey{
+    color: 	 #595959;
+}
+.extraPadding{
+    margin: 20px 0px;
+}
+.subHeading{
+   font-family: 'Lora', serif;
+    color: #897a9f;
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.sideImg{
+    height: 500px !important;
+    width: 100%;
+    border-radius: 10px;
+}
+.smallCnt{
+    margin-top: -75px;
+    margin-left: 35px;
+}
+.appButton2{
+    background-color: #897a9f;
+    padding: 23px 24px;
+    font-size: 19px;
+}
+.greyBackColor{
+    background-color: 	 #d8d3df;
+}
+.subHeadingB{
+    color: #635676;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+.img1{
+   width: 100%;
+    height: 240px;
+}
+.whiteBox{
+    margin-top: 20px;
+    background-color: #ffffff;
+    padding: 16px;
+}
+.serviceHeadSmallBlack{
+    color: #000000;
+}
+.middleIcon{
+    margin-top: 15px;
+    font-size: 42px;
+    font-weight: 600;
+}
+.smallBlackBox:hover{
+   background-color: #000000;
+    cursor: pointer;
+}
+.smallBlackBox:hover .middleIcon{
+    color: #ffffff;
+}
+.smallBlackBox1{
+    background-color: #000000;
+    cursor: pointer; 
+     color: #ffffff;
+}
+
+
+
+/* Extra small devices (phones, 300px and down)  start*/
+@media only screen and (max-width: 300px) {
+  
+    
+}
+
+
+/* Extra small devices (phones, 320px and down)  start */
+@media only screen and (max-width: 320px) {
+   
+
+}
+
+
+/* Medium devices ( 767px and down) start */
+@media only screen and (max-width: 767px){ 
+    .carousel-caption{
+        display: none;
+    }
+    .carousel-inner img{
+        height: auto;
+    }
+   
+}
+
+
+
+/* Medium devices (landscape tablets, 768px and up)  start*/
+@media only screen and (min-width: 768px) {
+  .carousel-caption{
+     bottom: 64px;
+    }
+    .bigHeading{
+        font-size: 32px;
+    }
+    .smallHeading{
+       font-size: 14px;  
+    }
+    .logo1{
+       padding: 15px 233px;
+    }
+    
+}
+    
+
+/* Medium devices ( 768px and down) start */
+@media only screen and (max-width: 768px){ 
+    .navLink{
+      padding: 0px 7px;     
+    } 
+   
+}
+
+
+
+/* Large devices (laptops/desktops, 992px and up)  start*/
+@media only screen and (min-width: 992px) {
+.navLink{
+    padding: 0px 7px;     
+  }
+   .carousel-caption{
+     bottom: 45px;
+    }
+     .bigHeading{
+        font-size: 38px;
+    }
+    .smallHeading{
+       font-size: 15px;  
+    }
+   
+    
+}
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up)  start*/
+@media only screen and (min-width: 1200px) {
+.navLink{
+    padding: 0px 14px;     
+  }
+  .carousel-caption{
+     bottom: 100px;
+    }
+    .bigHeading{
+        font-size: 42px;
+    }
+    .smallHeading{
+       font-size: 15px !important;  
+    }
+  
+   
+        
+}
+
