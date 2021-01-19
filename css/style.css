@@ -200,6 +200,11 @@ nav{
     text-transform: uppercase;
     font-weight: bold;
 }
+.subHeading:hover{
+    text-decoration: none;
+    color: #897a9f;
+}
+
 .sideImg{
     height: 500px !important;
     width: 100%;
@@ -215,7 +220,7 @@ nav{
     font-size: 19px;
 }
 .greyBackColor{
-    background-color: 	 #d8d3df;
+    background-color: #d8d3df;
 }
 .subHeadingB{
     color: #635676;
@@ -251,6 +256,110 @@ nav{
     cursor: pointer; 
      color: #ffffff;
 }
+.mainButton{
+     font-family: 'Lora', serif;
+     text-transform: capitalize;
+     color: #ffffff;
+     text-decoration: none;
+     padding: 15px 17px;
+     background-color: #897a9f;
+     margin-top: 10px;
+     border-radius: 30px;
+     letter-spacing: 1px;
+     font-size: 18px;
+}
+.mainButton:hover{
+    background-color: transparent;
+    border: 2px solid #897a9f;
+    color: #000000;
+    text-decoration: none;
+}
+.greyBackColor2{
+    padding: 40px;
+}
+.serviceHeadSmall1{
+    text-transform: capitalize;
+}
+.topBorder{
+    border-top: 1px solid #897a9f;
+    padding: 20px 0px;
+}
+.circle1{
+    height: 115px;
+    width: 115px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #1a1a1a;
+    padding: 25px 10px;
+}
+.circle1:hover{
+    background-color:  #897a9f; 
+}
+.circle12{
+    border: 2px solid  #897a9f;
+    background-color: transparent;
+    padding:19px 10px;
+}
+.circle12 .clrIcon{
+   color: #897a9f; 
+}
+.circle12:hover .clrIcon{
+   color: #ffffff; 
+}
+.circle12:hover{
+    background-color: #897a9f;
+     border: 2px solid  #000000;
+}
+.marginLeft{
+    padding-left: 4px;
+}
+.whiteBox1{
+    margin-top: 0px;
+}
+.whiteShadow{
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 40px 20px;
+    margin-top: -40px;
+    border-bottom: 2px solid  #897a9f;
+}
+.mainButtonPadding{
+    border-radius: 0px;
+}
+.extraP{
+    padding: 30px 0px;
+}
+.greyBackColor3{
+    padding-bottom: 150px;
+}
+.text{
+    margin-top: 20px;
+}
+.backimg2{
+  background-image: url(../images/banner1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 620px;
+}
+.backWhite{
+    background-color: #ffffff;
+    padding: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.displayBlock{
+    display: block;
+    text-align: center;
+}
+.greyBack4{
+    padding: 60px 0px;
+}
+.im2{
+    width: 90% !important;
+    height: 80px !important;
+}
+
+
 
 
 
