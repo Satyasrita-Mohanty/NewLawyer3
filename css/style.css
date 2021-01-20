@@ -360,20 +360,27 @@ nav{
 }
 
 
-
-
-
-/* Extra small devices (phones, 300px and down)  start*/
-@media only screen and (max-width: 300px) {
-  
-    
-}
-
-
 /* Extra small devices (phones, 320px and down)  start */
 @media only screen and (max-width: 320px) {
-   
-
+   .serviceHeadSmall{
+        font-size: 12px !important;
+    } 
+    .smallHeading{
+        font-size: 12px !important;
+    }
+    .serviceHead{
+        font-size: 17px !important;
+    }
+    .mainButton{
+        font-size: 14px !important; 
+        padding: 11px 10px;
+    }
+    .subHeadingB{
+        font-size: 12px;
+    }
+    .subHeading{
+        font-size: 11px;
+    }
 }
 
 
@@ -385,7 +392,21 @@ nav{
     .carousel-inner img{
         height: auto;
     }
-   
+    .serviceHeadSmall{
+        font-size: 16px;
+    }
+    .sideImg{
+        height: 370px !important;
+    }
+    .serviceHead {
+         font-size: 23px;
+    }
+    .backimg2{
+        height: 250px !important;
+    }
+    .im2{
+        height: auto !important;
+    }
 }
 
 
@@ -396,7 +417,7 @@ nav{
      bottom: 64px;
     }
     .bigHeading{
-        font-size: 32px;
+        font-size: 28px;
     }
     .smallHeading{
        font-size: 14px;  
@@ -411,8 +432,17 @@ nav{
 /* Medium devices ( 768px and down) start */
 @media only screen and (max-width: 768px){ 
     .navLink{
-      padding: 0px 7px;     
+      padding: 0px 10px;     
     } 
+    .extraPadding{
+        margin: 60px 0px;
+    }
+    .img1{
+        height: auto;
+    }
+    .backimg2{
+        height: 430px;
+    }
    
 }
 
@@ -432,10 +462,13 @@ nav{
     .smallHeading{
        font-size: 15px;  
     }
-   
-    
+    .serviceHeadSmall{
+        font-size: 15px;
+    }
+    .subHeading{
+        font-size: 12px;
+    }
 }
-
 
 
 /* Extra large devices (large laptops and desktops, 1200px and up)  start*/
@@ -452,8 +485,11 @@ nav{
     .smallHeading{
        font-size: 15px !important;  
     }
-  
-   
-        
+    .serviceHeadSmall{
+        font-size: 19px;
+    }
+    .subHeading{
+        font-size: 13px;
+    }     
 }
 
